@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"create",
+				"create_table"
+			],
+			[
+				"de",
+				"debug	function"
+			],
+			[
+				"set",
+				"setupLogger	function"
+			],
+			[
+				"s",
+				"start"
+			],
+			[
+				"get",
+				"getYahooCode"
+			],
+			[
+				"date",
+				"datetime	class"
+			],
+			[
+				"ut",
+				"utilities	module"
+			],
+			[
+				"tem",
+				"temperatura_ext"
+			],
+			[
+				"ar",
+				"ArduinoData"
+			],
+			[
+				"in",
+				"infoTiempo	module"
+			],
+			[
+				"rs",
+				"rstrip	function"
+			],
+			[
+				"temp",
+				"temp_ext	param"
+			],
+			[
+				"temp_",
+				"temp_int	param"
+			],
+			[
+				"we",
+				"weather_json	statement"
+			],
+			[
+				"Ardui",
+				"ArduinoData	class"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"cond",
+				"condiciones_actuales"
+			],
+			[
+				"curr",
+				"currentMinute	statement"
+			],
+			[
+				"condi",
+				"condiciones_actuales	statement"
+			],
+			[
+				"w",
+				"weather_json	statement"
+			],
+			[
+				"In",
+				"InfoTiempo	class"
+			],
+			[
+				"condicone",
+				"condiciones_futuras	statement"
+			],
+			[
+				"a",
+				"append	function"
+			],
+			[
+				"pre",
+				"prevision_json	statement"
+			],
+			[
+				"tiempo",
+				"tiempo_json	param"
+			],
+			[
+				"ya",
+				"yahoo_url	statement"
+			],
+			[
+				"quo",
+				"quotes"
+			],
+			[
+				"print",
+				"print_quotes"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"proce",
+				"processData"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bower",
+				"bower_components"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"whi",
+				"white"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"js",
+				"jsonify"
+			],
+			[
+				"http",
+				"http_server"
+			],
+			[
+				"pr",
+				"propNumber"
+			],
+			[
+				"j",
+				"jsonify"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
+				"video",
+				"video_avi"
+			],
+			[
+				"vi",
+				"video_mp4"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "gul",
+		"selected_items":
+		[
+			[
+				"gul",
+				"Gulp"
+			],
+			[
+				"ope",
+				"Terminal: Open"
+			],
+			[
+				"ever",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"eve",
+				"Evernote: List recent notes"
+			],
+			[
+				"evernote up",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"evernote l",
+				"Evernote: List recent notes"
+			],
+			[
+				"evernote u",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"gu",
+				"Gulp"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"g",
+				"Gulp"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp"
+	],
+	"file_history":
+	[
+		"/Volumes/MacintoshDATA/Users/ricveal/front-temperature/src/app/main/main.controller.js",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/README.md",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/server.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/tiempo.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/utilities.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/arduinoData.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/dbConnector.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/conditions.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/infoTiempo.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/logger.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/myData.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Library/Application Support/Sublime Text 3/Packages/FileHeader/FileHeader.sublime-settings",
+		"/Volumes/MacintoshDATA/Users/ricveal/Library/Application Support/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/requirements.txt",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/temperatureApp/src/debug.log",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/twitter/autofollow/autoFollow.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Documents/codigos_python/twitter/autofollow/main.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/LICENSE",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/test_project/config.json",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/test_project/src/conditions.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/test_project/src/server.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/test_project/src/config.json",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/utilities.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/arduinoData.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/conditions.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/infoTiempo.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/tiempo.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/myData.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/server.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/dbConnector.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/test.py",
+		"/Volumes/MacintoshDATA/Users/ricveal/Desktop/MyData.py",
+		"/Volumes/Macintosh DATA/Dropbox/forbesquotes/logger.py",
+		"/Volumes/Macintosh DATA/Dropbox/forbesquotes/forbesquotes.py",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/Internet de las cosas emojis/src/internet-cosas-emojis.md",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/Evapolar-aire-acondicionado-arduino/src/evapolar-aire-acondicionado-arduino.md",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/Evapolar-aire-acondicionado-arduino/dist/evapolar-aire-acondicionado-arduino.html",
+		"/private/var/folders/s0/hcg9x5sd0r77760cp5ttl6340000gn/T/0327c04d-f6fe-4f5b-b422-9d2ed7ee19e4/public_html/wp-config.php",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/Z-Wave plus - la evolución de Z-Wave/gulpfile.js",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/¿El robot debe apretar el gatillo?.md",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/¿El robot debe apretar el gatillo?/gulpfile.js",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/El alma del Robot.md",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/forbesquotes.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/quote.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/dbConnector.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/forbesquotes.log",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/logger.py",
+		"/Volumes/Macintosh DATA/Dropbox/REE/ree.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/quotes.db",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/quotes.py",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/Z-Wave plus - la evolución de Z-Wave/Z-Wave plus - la evolución de Z-Wave.md",
+		"/Volumes/Macintosh DATA/Dropbox/posts/ricveal/Z-Wave plus - la evolución de Z-Wave.md",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/gulpfile.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/home/home.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/about/about.tpl.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/home/home.tpl.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/blog/blog.tpl.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/common/services/BlogService.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/blog/post.tpl.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/.htaccess",
+		"/Volumes/Macintosh DATA/Users/ricveal/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Volumes/Macintosh DATA/Users/ricveal/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/app.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/index.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/sass/main.scss",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/config.json",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/bower_components/angular-mailchimp/angular-mailchimp.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/blog/post.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/sass/timeline.scss",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/blog/blog.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/favicon.png",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/sass/fontawesome/_variables.scss",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/sass/buttons/_base.scss",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/sass/buttons/_options.scss",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/sass/buttons/types/_longshadow.scss",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/package.json",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/npm-debug.log",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/bower.json",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/common/directives/revealingSearchInput/revealingSearchInput.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/common/filters/decodeHtmlCodes.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/common/filters/stripHtmlTags.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/common/services/MetadataService.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/about/about.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/server.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/posts/ricveal/new.md",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/src/app/static-page.php",
+		"/Volumes/Macintosh DATA/Users/ricveal/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/testing/config.json",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/testing/gulpfile.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/testing/src/app/app.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/src/index.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/src/app.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/gulpfile.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/.bowerrc",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/bower.json",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/package.json",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/app.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/index.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/bbva_workspace/front/bower.json",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/webpack.config.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/tasks/tests-ci.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/tasks/release.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/tasks/jscs.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/tasks/handle-errors.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/front/tasks/dev.js",
+		"/private/var/folders/s0/hcg9x5sd0r77760cp5ttl6340000gn/T/f521fd37-b985-4de7-ae7e-ba8bd667e9b8/public_html/folder/untitled.html",
+		"/private/var/folders/s0/hcg9x5sd0r77760cp5ttl6340000gn/T/f521fd37-b985-4de7-ae7e-ba8bd667e9b8/public_html/folder/untitled.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/folder/untitled.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/folder/untitled.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/newblog/untitled.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/untitled.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/newblog/untitled.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/newblog/src/app/common/services/BlogService.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/newblog/src/app/app.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/newblog/gulpfile.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/newblog/dist/scripts/main.min.js",
+		"/Volumes/Macintosh DATA/Users/ricveal/Documents/Docker/index.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/ricveal/admin.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/ricveal/views.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/local_settings.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/wsgi.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/urls.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/ricveal/models.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/ricveal/templates/pages/form.html",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/requirements.txt",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/settings.py",
+		"/Volumes/Macintosh DATA/Users/ricveal/Desktop/blog/ricveal/templates/contacts.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"**",
+			"__",
+			"section",
+			"side",
+			"#d4d4d4",
+			"box-sha",
+			"war",
+			"VENDOR_S",
+			"circ",
+			"service",
+			"}\n",
+			"styles",
+			"clean",
+			"scripts",
+			"pure",
+			"scripts",
+			"pure",
+			"less",
+			"rimraf",
+			"End",
+			"starTrekApp",
+			"Vend",
+			"API_URL",
+			"#3f51b5",
+			"DEBUG",
+			"container",
+			"h4",
+			"contain",
+			"*::-moz-selection",
+			"#428BCA",
+			"blue",
+			"#bfc9d3",
+			"background-color:rgba",
+			"background-color",
+			"#384452",
+			"#00b3fe",
+			"#01b2fe",
+			"#2B2E31",
+			"theme",
+			"caret_style",
+			"fade_fold_buttons",
+			"hight",
+			"sidebar",
+			"dwqa-alert alert",
+			"dwqa-alert",
+			"dwqa-alert alert",
+			"select-category",
+			"wp_head",
+			".map",
+			"style.css.map",
+			"/inc/templates/default/assets/css/style.css.map",
+			"jq",
+			"ver=1.11",
+			"jquery.js?ver=1.11.1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gulp_output":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "temperatureApp.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

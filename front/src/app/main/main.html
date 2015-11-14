@@ -1,0 +1,11 @@
+<md-content class="md-padding">
+    <md-card>
+        <h1>CONDICIONES ACTUALES</h1>
+        <h3>Temperatura Interior: {{tempInt}}</h3>
+        <h3>Temperatura Exterior: {{tempExt}}</h3>
+    </md-card>
+    <md-card>
+        <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-legend="true" chart-series="series" chart-colours="colours" chart-click="onClick">
+        </canvas>
+    </md-card>
+</md-content>
