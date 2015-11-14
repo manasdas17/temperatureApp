@@ -45,6 +45,6 @@ cd src
 python server.py
 ```
 
-There is not any implementation that manage the close so you have to exit pressing <ctrl> + c or killing the process.
+There is not any implementation that manage the close so you have to exit pressing Ctrl + c or killing the process.
 
 Thank you!
