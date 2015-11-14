@@ -3,7 +3,7 @@
 # @Author: ricveal
 # @Date:   2015-11-13 14:39:22
 # @Last Modified by:   ricveal
-# @Last Modified time: 2015-11-14 12:17:04
+# @Last Modified time: 2015-11-14 13:11:16
 
 from flask import Flask, jsonify, Response
 from setproctitle import setproctitle
@@ -31,11 +31,10 @@ def OpenJSON(file):
 @app.route('/api')
 def show_data():
     data = db.get_last_values()
-    info = "{'data':"
+    d = []
     for i in data:
-        this_info = "{'fecha':'"+i.fecha+"', 'temp_int':'"+str(i.temp_int)+"', 'temp_ext':'"+str(i.temp_ext)+"'},"
-        info = info + this_info
-    info = info.rstrip(",") + "}"
+        d.append({'fecha': i.fecha, 'temps':{'int':i.temp_int, 'ext':i.temp_ext}})
+    info = json.dumps(dict(data=d))
     resp = Response(info, status=200, mimetype='application/json')
     resp.headers['Link'] = 'http://ricveal.com'
     return resp
@@ -60,7 +59,7 @@ def saveData():
         current_conditions = { "fecha" : getCurrentTime(), "temperatura_int" : conditions.arduino['temp'], "temperatura_ext" : conditions.yahoo['temp'] }
         log.debug(current_conditions)
         db.insert_value(current_conditions['fecha'], current_conditions['temperatura_int'], current_conditions['temperatura_ext'])
-        time.sleep(10)
+        time.sleep(2*60)
 
 
 def main():
