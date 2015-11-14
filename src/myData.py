@@ -3,9 +3,11 @@
 # @Author: ricveal
 # @Date:   2015-11-13 13:34:24
 # @Last Modified by:   ricveal
-# @Last Modified time: 2015-11-13 13:34:33
+# @Last Modified time: 2015-11-14 13:25:12
+
 
 class MyData(object):
+
     def __init__(self, arg):
         super(MyData, self).__init__()
         self.fecha = str(arg[0])

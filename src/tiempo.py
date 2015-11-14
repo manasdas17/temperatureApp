@@ -3,12 +3,15 @@
 # @Author: ricveal
 # @Date:   2015-11-13 14:12:06
 # @Last Modified by:   ricveal
-# @Last Modified time: 2015-11-13 14:25:38
+# @Last Modified time: 2015-11-14 13:23:03
 
 from utilities import f_to_c
 
+
 class Tiempo(object):
+
     """Modelización tiempo"""
+
     def __init__(self, tiempo_json):
         super(Tiempo, self).__init__()
         self.text = tiempo_json['text']

@@ -3,7 +3,7 @@
 # @Author: ricveal
 # @Date:   2015-11-13 14:15:20
 # @Last Modified by:   ricveal
-# @Last Modified time: 2015-11-13 16:51:26
+# @Last Modified time: 2015-11-14 13:23:40
 
 from bs4 import BeautifulSoup
 import requests
@@ -14,7 +14,9 @@ from utilities import getCurrentTime
 
 import json
 
+
 class Conditions(object):
+
     """docstring for Conditions"""
 
     def __init__(self):
@@ -24,15 +26,14 @@ class Conditions(object):
         self.arduino = self.getArduinoConditions()
 
     def obtain_yahoo_url(self, code):
-        yahoo_url = "http://query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20location%3D%22"+code+"%22&format=json"
+        yahoo_url = "http://query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20location%3D%22" + \
+            code + "%22&format=json"
         return yahoo_url
-
 
     def getArduinoConditions(self):
 
-
         url = self.config['url_arduino']
-        req = requests.get( url )
+        req = requests.get(url)
 
         statusCode = req.status_code
         if statusCode == 200:
@@ -41,13 +42,13 @@ class Conditions(object):
 
             arduino_data = ArduinoData(weather_json)
 
-            condiciones_actuales = { "fecha" : getCurrentTime(), "temp" : arduino_data.temperatura, "hum" : arduino_data.humedad }
+            condiciones_actuales = {"fecha": getCurrentTime(
+            ), "temp": arduino_data.temperatura, "hum": arduino_data.humedad}
 
             return condiciones_actuales
 
         else:
-            print "Status Code %d" %statusCode
-
+            print "Status Code %d" % statusCode
 
     def getYahooCode(self):
 
@@ -56,7 +57,7 @@ class Conditions(object):
         url = config['url_yahoo']
         term = config['term']
 
-        req = requests.get( url + term )
+        req = requests.get(url + term)
 
         statusCode = req.status_code
         if statusCode == 200:
@@ -73,7 +74,7 @@ class Conditions(object):
                 codes[dd[i].getText()] = dt[i].getText()
 
             for k in codes:
-                if ', '+config['country'] in k:
+                if ', ' + config['country'] in k:
                     new_codes[k] = codes[k]
 
             codes = new_codes
@@ -87,14 +88,13 @@ class Conditions(object):
             return code
 
         else:
-            print "Status Code %d" %statusCode 
-
-
+            print "Status Code %d" % statusCode
 
     def getYahooConditions(self):
-        code = self.config['code'] if len(self.config['code']) > 0 else self.getYahooCode()
+        code = self.config['code'] if len(
+            self.config['code']) > 0 else self.getYahooCode()
         yahoo_url = self.obtain_yahoo_url(code)
-        req = requests.get( yahoo_url )
+        req = requests.get(yahoo_url)
 
         statusCode = req.status_code
         if statusCode == 200:
@@ -103,12 +103,13 @@ class Conditions(object):
 
             tiempo = InfoTiempo(weather_json)
 
-            condiciones_actuales = { "fecha" : getCurrentTime(), "temp" : tiempo.condiciones_actuales.temp }
+            condiciones_actuales = {
+                "fecha": getCurrentTime(), "temp": tiempo.condiciones_actuales.temp}
 
             return condiciones_actuales
 
         else:
-            print "Status Code %d" %statusCode 
+            print "Status Code %d" % statusCode
 
     def importConf(self):
         with open('../config.json') as json_data_file:
