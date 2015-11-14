@@ -3,9 +3,10 @@
 # @Author: ricveal
 # @Date:   2015-11-13 14:39:22
 # @Last Modified by:   ricveal
-# @Last Modified time: 2015-11-14 11:59:20
+# @Last Modified time: 2015-11-14 12:17:04
 
 from flask import Flask, jsonify, Response
+from setproctitle import setproctitle
 from utilities import getCurrentTime
 import dbConnector as db
 from conditions import Conditions
@@ -15,10 +16,13 @@ import json, os
 from datetime import datetime, timedelta
 import threading, time
 
+APP_NAME = "temperatureApp"
+
+setproctitle(APP_NAME)
 
 app = Flask(__name__)
 LOG_LEVEL = "DEBUG"
-log = setupLogger(LOG_LEVEL, "temperatureApp")
+log = setupLogger(LOG_LEVEL, APP_NAME)
 
 def OpenJSON(file):
     with open(file) as data_file:    
