@@ -3,9 +3,9 @@
 # @Author: ricveal
 # @Date:   2015-11-13 14:39:22
 # @Last Modified by:   ricveal
-# @Last Modified time: 2015-11-14 17:47:15
+# @Last Modified time: 2015-11-14 18:13:15
 
-from flask import Flask, jsonify, Response, make_response, request, current_app, render_template
+from flask import Flask, jsonify, Response, make_response, request, current_app, send_file, send_from_directory
 from functools import update_wrapper
 from setproctitle import setproctitle
 from utilities import getCurrentTime
@@ -73,7 +73,32 @@ def crossdomain(origin=None, methods=None, headers=None,
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template('index.html')
+    return send_file('../index.html')
+
+
+@app.route('/assets/<path:path>')
+def send_assets(path):
+    return send_from_directory('../assets', path)
+
+
+@app.route('/fonts/<path:path>')
+def send_fonts(path):
+    return send_from_directory('../fonts', path)
+
+
+@app.route('/maps/<path:path>')
+def send_maps(path):
+    return send_from_directory('../maps', path)
+
+
+@app.route('/scripts/<path:path>')
+def send_scripts(path):
+    return send_from_directory('../scripts', path)
+
+
+@app.route('/styles/<path:path>')
+def send_styles(path):
+    return send_from_directory('../styles', path)
 
 
 @app.route('/api')
