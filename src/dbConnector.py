@@ -3,9 +3,9 @@
 # @Author: ricveal
 # @Date:   2015-09-19 13:26:02
 # @Last Modified by:   ricveal
-# @Last Modified time: 2015-11-13 14:41:38
+# @Last Modified time: 2015-11-14 11:58:16
 
-import sqlite3
+import sqlite3, os
 from myData import MyData
 
 FILE = 'temperature.db'
